@@ -1,0 +1,16 @@
+﻿Console.Clear();
+Console.WriteLine("Программа определения расстояния между двумя точками четвертей координат."); 
+Console.WriteLine("Введите расположения точки A"); 
+Console.WriteLine("Точка X: "); 
+int Xa = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Точка Y: "); 
+int Ya = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите расположения точки B"); 
+Console.WriteLine("Точка X: "); 
+int Xb = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Точка Y: "); 
+int Yb = Convert.ToInt32(Console.ReadLine());
+int X = (Xb-Xa);
+int Y = (Yb-Ya);
+int result =(X*X)+(Y*Y);
+Console.WriteLine("Разница между точками корень из "+result);
